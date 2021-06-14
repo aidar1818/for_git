@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Контрагенты</title>
+</head>
+<body>
+    <div class="mobile_nav">
+        <nav role="navigation">
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a href="./dashboard.html"><li>Доска</li></a>
+                    <a href="./applications.html"><li>Активные заявки</li></a>
+                    <a href="./history_of_application.html"><li>История заявок</li></a>
+                    <a href="./counterparties.html"><li>Контрагенты</li></a>
+                    <a href="./products.html"><li>Товары</li></a>
+                    <a href="./realization.html"><li>Реализация</li></a>
+                    <a href="./production.html"><li>Выроботка</li></a>
+                    <a href="./reports"><li>Отчёты</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo_for_mobile"><img src="./icons/logo.svg" alt=""><p> ELSTEP</p></div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <img src="./icons/logo.svg" alt="">
+                <p>ELSTEP</p> 
+            </div>
+
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/dasboard1.svg" alt="">
+                Доска
+            </a>
+            <a class="nav-item" href="./applications.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                Активные Заявки
+            </a>
+            <a class="nav-item" href="./history_of_application.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                История заявок
+            </a>
+            <a class="nav-item nav_hover" href="./counterparties.html"> 
+                <img class="nav-icon" src="./icons/partners1.svg" alt="">
+                Контрагенты
+            </a>
+            <a class="nav-item" href="./products.html"> 
+                <img class="nav-icon" src="./icons/bag1.svg" alt="">
+               Товары
+            </a>
+            <a class="nav-item" href="./realization.html"> 
+                <img class="nav-icon" src="./icons/realization1.svg" alt="">
+                Реализация
+            </a>
+            <a class="nav-item" href="./Production.html"> 
+                <img class="nav-icon" src="./icons/production1.svg" alt="">
+                Выроботка
+            </a>
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/report1.svg" alt="">
+                Отчеты
+            </a>
+        <!-- nav -->
+        </div> 
+        <div class="main_content">
+            <div class="div_for_two_btns">
+                <div class="div_for_search_input">
+                    <input class="input_for_search" type="text" placeholder="Поиск">
+                </div>
+                <div class="div_for_add_btn">
+                    <button class="btn_for_add_partners" id="my_Btn">Добавить контрагента</button>
+                </div>
+            </div>
+            <div class="content">
+                <div class="header">Список контрагентов</div>
+                <div class="wrapper">
+                    <div class="wrapper_for_horizontal">
+                        <div class="header_in_table header_in_table_counterparties">
+                            <div class="table_content_blue table_counterparties_1">Компания</div>
+                            <div class="table_content_blue table_counterparties_2">ФИО</div>
+                            <div class="table_content_blue table_counterparties_3">Телефон</div>
+                            <div class="table_content_blue table_counterparties_4">E-mail</div>
+                            <div class="table_content_blue table_counterparties_5">Последний заказ</div>
+                        </div>
+                        <a href="./profile.html" class="content_in_table content_in_table_counterparties">
+                            <div class="table_content_white table_counterparties_1_1">Шоро</div>
+                            <div class="table_content_white table_counterparties_1_2">Каныбеков Айдарбек Каныбекович</div>
+                            <div class="table_content_white table_counterparties_1_3">996556731393</div>
+                            <div class="table_content_white table_counterparties_1_4">aidarkanybekov25@gmail.com</div>
+                            <div class="table_content_white table_counterparties_1_5">01.06.2021</div>
+                          </a>
+                          <a href="./profile.html" class="content_in_table content_in_table_counterparties">
+                            <div class="table_content_white table_counterparties_1_1">Шоро</div>
+                            <div class="table_content_white table_counterparties_1_2">Каныбеков Айдарбек Каныбекович</div>
+                            <div class="table_content_white table_counterparties_1_3">996556731393</div>
+                            <div class="table_content_white table_counterparties_1_4">aidarkanybekov25@gmail.com</div>
+                            <div class="table_content_white table_counterparties_1_5">01.06.2021</div>
+                          </a>
+                    </div>
+                </div>
+                <div class="div-for-scroll-btn">
+                    <button class="scroll-btn scroll-btn-img"><img src="./icons/left_arrow.svg" alt=""></button>
+                    <button class="scroll-btn">1</button>
+                    <button class="scroll-btn">2</button>
+                    <button class="scroll-btn">3</button>
+                    <button class="scroll-btn scroll-btn-img"><img src="./icons/right_arrow.svg" alt=""></button>
+                </div>
+            </div>
+            
+        <!-- main_content -->
+        </div>
+        
+    <!-- main -->
+    </div>
+    <div id="myModal" class="modal-window">
+        <div class="modal-window-content">
+
+            <div class="elements-in-window">
+                <div class="p_and_x">
+                    <p class="title-in-window">Добавить контрагента</p> 
+                    <span id="close" class="close">&times;</span>
+                </div>
+                <div class="box-in-window">
+                    <p class="input-text">Название компании</p>
+                    <input class="input-in-window" type="text" name="name" id="id_name" required maxlength="255">
+                    <p class="input-text">Имя</p>
+                    <input class="input-in-window" type="text" name="first_name" id="id_first_name" required maxlength="255">
+                    <p class="input-text">Фамилия</p>
+                    <input class="input-in-window" type="text" name="last_name" id="id_last_name" required maxlength="255">
+                    <p class="input-text">Отчество</p>
+                    <input class="input-in-window" type="text" name="patronymic" id="id_patronymic" required maxlength="255">
+                    <p class="input-text">Номер телефона</p>
+                    <input class="input-in-window" type="tel" name="phone_number" id="id_phone_number" required maxlength="255">
+                    <p class="input-text">Email</p>
+                    <input class="input-in-window" type="email" name="email" id="id_email" required maxlength="255">
+                    <p class="input-text">Фотография</p>
+                    <label for="img-input"><img class="img-input" src="./icons/upload_profile.svg" alt=""><input class="photo_in_products" id="img-input" type="file" name="image" id="id_image"></label>
+                    <p class="input-text input-text-1">Заметка</p>
+                    <textarea class="textarea-in-window" name="note" id="id_note" cols="40" rows="10" placeholder="Введите текст"></textarea>
+                </div>
+                <div>
+                    <button class="add-profile">
+                        Добавить контрагента
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

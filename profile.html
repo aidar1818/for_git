@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Профиль контрагента</title>
+</head>
+<body>
+    <div class="mobile_nav">
+        <nav role="navigation">
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a href="./dashboard.html"><li>Доска</li></a>
+                    <a href="./applications.html"><li>Активные заявки</li></a>
+                    <a href="./history_of_application.html"><li>История заявок</li></a>
+                    <a href="./counterparties.html"><li>Контрагенты</li></a>
+                    <a href="./products.html"><li>Товары</li></a>
+                    <a href="./realization.html"><li>Реализация</li></a>
+                    <a href="./production.html"><li>Выработка</li></a>
+                    <a href="./reports"><li>Отчёты</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo_for_mobile"><img src="./icons/logo.svg" alt=""><p> ELSTEP</p></div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <img src="./icons/logo.svg" alt="">
+                <p>ELSTEP</p> 
+            </div>
+
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/dasboard1.svg" alt="">
+                Доска
+            </a>
+            <a class="nav-item" href="./applications.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                Активные Заявки
+            </a>
+            <a class="nav-item" href="./history_of_application.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                История заявок
+            </a>
+            <a class="nav-item" href="./counterparties.html"> 
+                <img class="nav-icon" src="./icons/partners1.svg" alt="">
+                Контрагенты
+            </a>
+            <a class="nav-item" href="./products.html"> 
+                <img class="nav-icon" src="./icons/bag1.svg" alt="">
+               Товары
+            </a>
+            <a class="nav-item" href="./realization.html"> 
+                <img class="nav-icon" src="./icons/realization1.svg" alt="">
+                Реализация
+            </a>
+            <a class="nav-item" href="./Production.html"> 
+                <img class="nav-icon" src="./icons/production1.svg" alt="">
+                Выработка
+            </a>
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/report1.svg" alt="">
+                Отчеты
+            </a>
+        <!-- nav -->
+        </div> 
+        <div class="main_content">
+            <div class="content content_in_profile">
+                <div class="profile_header">
+                    <div class="profile_img">
+                        <img src="./image/profile_img.png" alt="">
+                    </div>  
+                    <div class="naming_of_profile">
+                        <p class="name_of_profile">Фамилия Имя</p>
+                        <p class="name_of_company">ОсОО "Krosovok"</p>
+                        <p class="number_of_company">0777656131</p>
+                    </div>
+                </div>
+                <div class="discription_of_company">
+                    <p>Описание</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="header">Реализация</div>
+                <div class="div_for_from_to">
+                <span class="from-to">От</span><input class="input-in-window-2 date_input" type="date">
+                <span class="from-to">До</span><input class="input-in-window-2 date_input" type="date">
+                </div>
+                <div class="wrapper">
+                    <div class="wrapper_for_horizontal">
+                        <div class="header_in_table header_in_table_realization">
+                            <div class="table_content_blue table_realization_1">Дата</div>
+                            <div class="table_content_blue table_realization_2">Контрагент</div>
+                            <div class="table_content_blue table_realization_3">Артикул</div>
+                            <div class="table_content_blue table_realization_4">Цвет</div>
+                            <div class="table_content_blue table_realization_5">Каличество пар</div>
+                            <div class="table_content_blue table_realization_6">Количество упаковок</div>
+                            <div class="table_content_blue table_realization_7">Количество мешков</div>
+                            <div class="table_content_blue table_realization_8">Выплаченная сумма</div>
+                            <div class="table_content_blue table_realization_9">Общая сумма</div>
+                        </div>
+                        <a href="./page_of_realization.html" class="content_in_table header_in_table_realization">
+                            <div class="table_content_white table_realization_1_1">05.06.2021</div>
+                            <div class="table_content_white table_realization_1_2">Сапаров Эльдияр</div>
+                            <div class="table_content_white table_realization_1_3">060606</div>
+                            <div class="table_content_white table_realization_1_4">серый</div>
+                            <div class="table_content_white table_realization_1_5">1300</div>
+                            <div class="table_content_white table_realization_1_6">1500</div>
+                            <div class="table_content_white table_realization_1_7">16500</div>
+                            <div class="table_content_white table_realization_1_8">1550</div>
+                            <div class="table_content_white table_realization_1_9">22000</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

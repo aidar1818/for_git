@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Товары</title>
+</head>
+<body>
+    <div class="mobile_nav">
+        <nav role="navigation">
+            <div id="menuToggle">
+
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                    <a href="./dashboard.html"><li>Доска</li></a>
+                    <a href="./applications.html"><li>Активные заявки</li></a>
+                    <a href="./history_of_application.html"><li>История заявок</li></a>
+                    <a href="./counterparties.html"><li>Контрагенты</li></a>
+                    <a href="./products.html"><li>Товары</li></a>
+                    <a href="./realization.html"><li>Реализация</li></a>
+                    <a href="./production.html"><li>Выработка</li></a>
+                    <a href="./reports"><li>Отчёты</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo_for_mobile"><img src="./icons/logo.svg" alt=""><p> ELSTEP</p></div>
+    </div>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <img src="./icons/logo.svg" alt="">
+                <p>ELSTEP</p> 
+            </div>
+
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/dasboard1.svg" alt="">
+                Доска
+            </a>
+            <a class="nav-item" href="./applications.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                Активные Заявки
+            </a>
+            <a class="nav-item" href="./history_of_application.html"> 
+                <img class="nav-icon" src="./icons/request1.svg" alt="">
+                История заявок
+            </a>
+            <a class="nav-item" href="./counterparties.html"> 
+                <img class="nav-icon" src="./icons/partners1.svg" alt="">
+                Контрагенты
+            </a>
+            <a class="nav-item nav_hover" href="./products.html"> 
+                <img class="nav-icon" src="./icons/bag1.svg" alt="">
+               Товары
+            </a>
+            <a class="nav-item" href="./realization.html"> 
+                <img class="nav-icon" src="./icons/realization1.svg" alt="">
+                Реализация
+            </a>
+            <a class="nav-item" href="./Production.html"> 
+                <img class="nav-icon" src="./icons/production1.svg" alt="">
+                Выработка
+            </a>
+            <a class="nav-item" href=""> 
+                <img class="nav-icon" src="./icons/report1.svg" alt="">
+                Отчеты
+            </a>
+        <!-- nav -->
+        </div> 
+            
+        <div class="main_content">
+            <div class="div_for_two_btns">
+                <div class="div_for_search_input">
+                    <input class="input_for_search" type="text" placeholder="Поиск">
+                </div>
+                <div class="div_for_add_btn">
+                    <button class="btn_for_add_partners" id="my_Btn">Добавить товар</button>
+                </div>
+            </div>
+            <div class="selection_content">
+                <div>
+                    <select class="selections-in-products" name="" id="">
+                        <option value="">Артикул</option>
+                    </select>
+                    <select class="selections-in-products" name="" id="">
+                        <option value="">Категория</option>
+                    </select>
+                    <select class="selections-in-products" name="" id="">
+                        <option value="">Цвет</option>
+                    </select>
+                </div>
+            </div>
+            <div class="content">
+                <div class="header">Список товаров</div>
+                <div class="wrapper">
+                    <div class="wrapper_for_horizontal">
+                        <div class="header_in_table header_in_table_products">
+                            <div class="table_content_blue table_products_1">Фото</div>
+                            <div class="table_content_blue table_products_2">Артикул</div>
+                            <div class="table_content_blue table_products_3">Категория</div>
+                            <div class="table_content_blue table_products_4">Размер</div>
+                            <div class="table_content_blue table_products_5">Цвет</div>
+                        </div>
+                        <a href="./product_page.html" class="content_in_table header_in_table_products">
+                            <div class="table_content_white table_products_1_1"><div class="img_in_table"><img src="./image/nike_example.jpg" alt=""></div></div>
+                            <div class="table_content_white table_products_1_2">060606</div>
+                            <div class="table_content_white table_products_1_3">муж</div>
+                            <div class="table_content_white table_products_1_4">36-39</div>
+                            <div class="table_content_white table_products_1_5">Серый</div>
+                          </a>
+
+
+                    </div>
+                </div>
+                
+                <div class="div-for-scroll-btn">
+                    <button class="scroll-btn scroll-btn-img"><img src="./icons/left_arrow.svg" alt=""></button>
+                    <button class="scroll-btn">1</button>
+                    <button class="scroll-btn">2</button>
+                    <button class="scroll-btn">3</button>
+                    <button class="scroll-btn scroll-btn-img"><img src="./icons/right_arrow.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal -->
+    <div id="myModal" class="modal-window">
+        <div class="modal-window-content modal-window-content-products">
+            <div class="p_and_x">
+                <p class="title-in-window">Добавить товар</p> 
+                <span id="close" class="close">&times;</span>
+            </div>
+            
+            <div class="colomns_in_window">
+
+                <div class="column_1">
+                    <p>Добавить товар</p>
+                    <label for="photo_in_products"><img class="upload_img" src="./icons/upload_product.svg" alt=""><input id="photo_in_products" class="photo_in_products" type="file"></label>
+                    <div class="ready_upload">
+                        <div class="upload_1">
+                            <img class="img_in_upload_process" src="./image/nike_example.jpg" alt="">
+                            <div class="naming_in_upload">
+                                <span class="name_of_product">Nike.png</span>
+                                <span class="image_size">512 KB</span>
+                            </div>          
+                        </div>
+                        <div>
+                            <button class="trash_btn"><img src="./icons/trash_icon_main.svg" alt=""></button>
+                        </div> 
+                    </div>
+                    <div class="ready_upload">
+                        <div class="upload_1">
+                            <img src="./icons/upload_cloud.svg" alt="">
+                            <div class="naming_in_upload">
+                                <span class="name_of_product">Obuv.png</span>
+                                <div class="loading_div">
+                                <div class="loading_div_ready"></div>
+                                <div class="loading_div_ready"></div>
+                                <div class="loading_div_ready"></div>
+                                <div></div>
+                                </div>
+                                <span class="image_size">75% готово</span>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="trash_btn"><img src="./icons/trash_icon_main.svg" alt=""></button>
+                        </div>
+                        
+                    </div>
+                    <button class="cansel"><span>отмена</span></button>
+                </div>
+                
+                <div class="column_2">
+                    <p class="input-text input-text-2">Артикул</p>
+                    <input class="input-in-window input-in-window-2" type="text">
+                    <p class="input-text input-text-2">Категория</p>
+                    <input class="input-in-window input-in-window-2" type="text">
+                    <div>
+                    <p class="input-text input-text-2">Цвет</p>
+                    <input class="input-in-window input-in-window-2 input_color" type="text">
+                    </div>
+                    <button class="btn_add_product">+</button>
+                    <p class="input-text input-text-2">Размер</p>
+                    <select class="select-in-window" name="" id="">
+                        <option value="">размер</option>
+                        <option value="">размер</option>
+                        <option value="">размер</option>
+                    </select>
+                    <button class="add-profile add-product">
+                        Добавить товар
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <script src="./script.js"></script>
+</body>
+</html>
